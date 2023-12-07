@@ -4,6 +4,12 @@
 library(ggplot2)
 library(gridExtra)
 
+# set seed  ensure that the sequence of random numbers generated is the same every time you run the code
+
+set.seed(123)
+
+# rerun the code after setting the seed 
+
 random_walk  <- function (n_steps) {
   
   df <- data.frame(x = rep(NA, n_steps), y = rep(NA, n_steps), time = 1:n_steps)
