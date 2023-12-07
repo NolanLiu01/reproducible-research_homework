@@ -2,6 +2,58 @@
 
 \# INSERT ANSWERS HERE #
 
+Question 4:
+
+1. The random walks originate from the point (0,0) and move a fixed distance in a random direction with each step. The step length is set to 0.25 units, and the direction is determined by a random angle chosen between [0, 2π]. It is evident that the random walks exhibit stochastic behavior, as the two walks are completely different.
+2. A random seed is a starting point used by a pseudorandom number generator (PRNG) to produce a sequence of numbers that appears random. Pseudorandom number generators are algorithms that generate sequences of numbers that exhibit statistical randomness but are, in fact, deterministic. This means that if you start with the same initial seed, you'll get the same sequence of numbers.
+3. Simply specify the seed with set.seed(). When you use functions that involve randomness (e.g., runif, rnorm, etc.), R generates random numbers based on an initial seed value as mentioned before. If you set the seed using set.seed(), you ensure that the sequence of random numbers generated is the same every time you run the code. This is crucial for reproducibility, as it allows others (or yourself at a later time) to replicate your results exactly.
+
+Question 5
+
+1. There are 13 columns and 33 rows. The 13 columns representing the various attributes of the virus. The 33 rows representing the 33 viruses represented in this study.
+2. A log transformation could be used. By applying a natural log to both sides of the given equation, the result gives a linear equation. Thus a linear model could be used to determine the scaling factor and exponent. The code can be found in this repository in the file question_5_code.R
+3. The values are the same as found in the paper. Scaling factor = 1181.807 and exponent = 1.52
+4. Code to reproduce graph can also be found in question_5_code.R
+5. The estimated virus volume is 6697007 (in nm3)
+
+Bonus Question 
+Reproducibility:
+Reproducibility involves obtaining consistent results using the same dataset, same analysis methods, and same conditions. Compared to replicability, reproducibility focuses on whether the same analysis coud be rerun using the same data and methods to get similar results.
+
+Replicability:
+Replicability involves obtaining consistent results across multiple studies that are trying to answer the same scientific question. Each study has obtained its own data and come up with their own methods to arrive at the same result. 
+
+How Git and Github can enhance Reproducibility and Replicability:
+
+Version Control:
+Git tracks changes in code, facilitating the recreation of previous states and ensuring that the analysis process can be reconstructed. Others can access the entire history of the project, allowing them to understand how the project evolved and easily identify changes made for different datasets or conditions.
+
+Collaboration:
+Collaborators can work concurrently on the same project, contributing to a more transparent and reproducible workflow. A well-documented project on GitHub can be shared with the broader scientific community, enabling others to replicate the study using their own datasets.
+
+Documentation:
+Git commits and README files can serve as documentation, explaining the purpose of each change and providing context for future reproductions. Detailed documentation enhances the chances of successful replication, as other researchers can understand the methods and assumptions.
+
+Branching:
+Git branches can be used to explore alternative analysis paths without affecting the main codebase, facilitating experimentation without compromising the reproducibility of the main workflow. Branching allows for the development of different versions of the project, each focused on specific datasets or conditions.
+
+Limitations:
+
+Learning Curve:
+Git and GitHub have a learning curve, and researchers may need time to become proficient.
+
+Binary Data:
+Large binary files can be less effectively managed by Git, potentially leading to repository bloat.
+
+Data Sensitivity:
+Sharing sensitive data on GitHub may pose privacy and ethical concerns.
+
+Dependency Management:
+Dependency management is crucial for reproducibility, and while tools like Git can track code changes, managing software dependencies requires additional considerations.
+
+Continuous Integration:
+While CI tools can enhance reproducibility, their setup can be complex and might not be suitable for all projects.
+
 ## Instructions
 
 The homework for this Computer skills practical is divided into 5 questions for a total of 100 points (plus an optional bonus question worth 10 extra points). First, fork this repo and make sure your fork is made **Public** for marking. Answers should be added to the # INSERT ANSWERS HERE # section above in the **README.md** file of your forked repository.
