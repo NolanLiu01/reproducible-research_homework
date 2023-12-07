@@ -7,8 +7,7 @@ Question 4:
 1. The random walks originate from the point (0,0) and move a fixed distance in a random direction with each step. The step length is set to 0.25 units, and the direction is determined by a random angle chosen between [0, 2π]. It is evident that the random walks exhibit stochastic behavior, as the two walks are completely different.
 2. A random seed is a starting point used by a pseudorandom number generator (PRNG) to produce a sequence of numbers that appears random. Pseudorandom number generators are algorithms that generate sequences of numbers that exhibit statistical randomness but are, in fact, deterministic. This means that if you start with the same initial seed, you'll get the same sequence of numbers.
 3. Simply specify the seed with set.seed(). When you use functions that involve randomness (e.g., runif, rnorm, etc.), R generates random numbers based on an initial seed value as mentioned before. If you set the seed using set.seed(), you ensure that the sequence of random numbers generated is the same every time you run the code. This is crucial for reproducibility, as it allows others (or yourself at a later time) to replicate your results exactly.
-4. ![Comparison Image](comparison.jpeg)
-
+4. ![comparison](https://github.com/NolanLiu01/reproducible-research_homework/assets/150164339/e7294764-e96b-404b-be55-91a53dca249d)
 
 Question 5
 
