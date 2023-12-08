@@ -1,6 +1,11 @@
 # Reproducible research: version control and R
 
-\# INSERT ANSWERS HERE #
+\# Answers #
+
+Questions 1-3: 
+
+Link to the logistic_growth repo: https://github.com/NolanLiu01/logistic_growth
+This is also provided in the submission document
 
 Question 4:
 
