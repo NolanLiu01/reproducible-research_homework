@@ -19,10 +19,10 @@ Question 5
 
 Bonus Question 
 Reproducibility:
-Reproducibility involves obtaining consistent results using the same dataset, same analysis methods, and same conditions. Compared to replicability, reproducibility focuses on whether the same analysis coud be rerun using the same data and methods to get similar results.
+Reproducibility involves obtaining consistent results using the same dataset, same analysis methods, and same conditions. Compared to replicability, reproducibility focuses on whether the same analysis coud be rerun using the same data and methods to get similar results (Earth & Behavioral, 2019).
 
 Replicability:
-Replicability involves obtaining consistent results across multiple studies that are trying to answer the same scientific question. Each study has obtained its own data and come up with their own methods to arrive at the same result. 
+Replicability involves obtaining consistent results across multiple studies that are trying to answer the same scientific question. Each study has obtained its own data and come up with their own methods to arrive at the same result (Earth & Behavioral, 2019). 
 
 How Git and Github can enhance Reproducibility and Replicability:
 
@@ -54,6 +54,9 @@ Dependency management is crucial for reproducibility, and while tools like Git c
 
 Continuous Integration:
 While CI tools can enhance reproducibility, their setup can be complex and might not be suitable for all projects.
+
+Citations:
+Earth, D. O., & Behavioral, C. B. O. (2019). Reproducibility and replicability in science. In National Academies Press eBooks. https://doi.org/10.17226/25303
 
 ## Instructions
 
