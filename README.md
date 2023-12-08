@@ -50,7 +50,9 @@ Continuous Integration:
 While CI tools can enhance reproducibility, their setup can be complex and might not be suitable for all projects.
 
 Citations:
+
 Cruise, B. T. (2012). Random vs. Pseudorandom Number Generators [Video]. Khan Academy. Retrieved December 8, 2023, from https://www.khanacademy.org/computing/computer-science/cryptography/crypt/v/random-vs-pseudorandom-number-generators
+
 Earth, D. O., & Behavioral, C. B. O. (2019). Reproducibility and replicability in science. In National Academies Press eBooks. https://doi.org/10.17226/25303
 
 ## Instructions
