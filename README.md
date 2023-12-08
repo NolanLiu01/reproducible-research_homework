@@ -38,16 +38,13 @@ Github branches are an effective tool to explore alternative analysis methods wi
 Limitations:
 
 Learning Curve:
-Git and GitHub may be inaccessible to those who are not as proficient in coding. 
+GitHub may be inaccessible to those who are not as proficient in coding. 
 
 Binary Data:
-Large binary files can be less effectively managed by Git, potentially leading to repository bloat (.
+Github has trouble managing Large binary files , which could be a bottleneck for users.
 
 Data Sensitivity:
-Sharing sensitive data on GitHub may pose privacy and ethical concerns.
-
-Dependency Management:
-Dependency management is crucial for reproducibility, and while tools like Git can track code changes, managing software dependencies requires additional considerations.
+Sharing sensitive data on GitHub could be a privacy and ethical concern.
 
 Continuous Integration:
 While CI tools can enhance reproducibility, their setup can be complex and might not be suitable for all projects.
