@@ -4,8 +4,8 @@
 
 Question 4:
 
-1. The random walks originate from the point (0,0) and move a fixed distance in a random direction with each step. The step length is set to 0.25 units, and the direction is determined by a random angle chosen between [0, 2π]. It is evident that the random walks exhibit stochastic behavior, as the two walks are completely different.
-2. A random seed is a starting point used by a pseudorandom number generator (PRNG) to produce a sequence of numbers that appears random. Pseudorandom number generators are algorithms that generate sequences of numbers that exhibit statistical randomness but are, in fact, deterministic. This means that if PRNG starts with the same initial seed, it will always generate the same sequence of numbers.
+1. The random walks originate from the point (0,0) and move a fixed distance in a random direction with each step. The step length is set to 0.25 units, and the direction is determined by a random angle chosen between [0, 2π]. It can be seen that the random walks exhibit stochastic behavior, as the two walks that were generated are completely different.
+2. A random seed is a starting point used by a pseudorandom number generator (PRNG) to produce a sequence of "random" numbers. Pseudorandom number generators are algorithms that generate sequences of numbers that exhibit statistical randomness but are, in fact, deterministic. This means that if a PRNG starts with the same initial seed, it will always generate the same sequence of numbers (Cruise, 2012).
 3. Simply specify the seed with set.seed(). By setting a specific seed will ensure that the sequence of random numbers generated is the same every time the code is run. This is crucial for reproducibility, as it allows others to replicate the results exactly.
 4. ![comparison](https://github.com/NolanLiu01/reproducible-research_homework/assets/150164339/e7294764-e96b-404b-be55-91a53dca249d)
 
@@ -26,25 +26,22 @@ Replicability involves obtaining consistent results across multiple studies that
 
 How Git and Github can enhance Reproducibility and Replicability:
 
-Version Control:
-Git tracks changes in code, facilitating the recreation of previous states and ensuring that the analysis process can be reconstructed. Others can access the entire history of the project, allowing them to understand how the project evolved and easily identify changes made for different datasets or conditions.
+Version Control and Documentation:
+Github can track changes in code, allowing the comparison of previous works and ensuring that the work process can be reconstructed by another individual. Github commits and README files can serve as documentation, explaining the purpose of each change and providing context for future reproductions.
 
 Collaboration:
-Collaborators can work concurrently on the same project, contributing to a more transparent and reproducible workflow. A well-documented project on GitHub can be shared with the broader scientific community, enabling others to replicate the study using their own datasets.
-
-Documentation:
-Git commits and README files can serve as documentation, explaining the purpose of each change and providing context for future reproductions. Detailed documentation enhances the chances of successful replication, as other researchers can understand the methods and assumptions.
+Collaborators can work together and have access to the same project, allowing a more transparent, reproducible, and replicatable workflow.
 
 Branching:
-Git branches can be used to explore alternative analysis paths without affecting the main codebase, facilitating experimentation without compromising the reproducibility of the main workflow. Branching allows for the development of different versions of the project, each focused on specific datasets or conditions.
+Github branches are an effective tool to explore alternative analysis methods without changing the main branch code, while remaining well documented. 
 
 Limitations:
 
 Learning Curve:
-Git and GitHub have a learning curve, and researchers may need time to become proficient.
+Git and GitHub may be inaccessible to those who are not as proficient in coding. 
 
 Binary Data:
-Large binary files can be less effectively managed by Git, potentially leading to repository bloat.
+Large binary files can be less effectively managed by Git, potentially leading to repository bloat (.
 
 Data Sensitivity:
 Sharing sensitive data on GitHub may pose privacy and ethical concerns.
@@ -56,6 +53,7 @@ Continuous Integration:
 While CI tools can enhance reproducibility, their setup can be complex and might not be suitable for all projects.
 
 Citations:
+Cruise, B. T. (2012). Random vs. Pseudorandom Number Generators [Video]. Khan Academy. Retrieved December 8, 2023, from https://www.khanacademy.org/computing/computer-science/cryptography/crypt/v/random-vs-pseudorandom-number-generators
 Earth, D. O., & Behavioral, C. B. O. (2019). Reproducibility and replicability in science. In National Academies Press eBooks. https://doi.org/10.17226/25303
 
 ## Instructions
