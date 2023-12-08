@@ -47,7 +47,7 @@ linear_fun_virus_print <- function (genome_length_log) {
   
 }
 
-# plot
+# code to reproduce the plot 
 
 ggplot(aes(genome_length_log,volume_log), data = virus_log) +
   
@@ -57,7 +57,12 @@ ggplot(aes(genome_length_log,volume_log), data = virus_log) +
   
   geom_smooth(method = 'lm', alpha = 0.5) +
   
-  labs(y= "log[Virion volume (nm3)]", x = "log[Genome length (kb)]")
+  labs(y= "log[Virion volume (nm3)]", x = "log[Genome length (kb)]") +
+  
+  theme_minimal() +
+  
+  theme(panel.border = element_rect(color = "black", 
+                                    fill = NA, size = 0.5))
 
 # estimated volume of 300 kb virus 
 
