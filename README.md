@@ -18,7 +18,7 @@ Question 5
 
 1. There are 13 columns and 33 rows. The 13 columns representing the various attributes of the virus. The 33 rows, not including the headers, representing the 33 viruses represented in this study.
 2. A log transformation could be used. By applying a natural log to both sides of the given equation, the result gives a linear equation. Thus a linear model could be used to determine the scaling factor and exponent. The code can be found in this repository in the file question_5_code.R
-3. The values are the same as found in the paper. Scaling factor = 1181.807 and exponent = 1.52
+3. The values are the same as found in the paper. Scaling factor = 1181.807 and exponent = 1.52. P-value for the intercept = 2.28e-10 ***. P-value for the exponent = 6.44e-10 ***. The asterixes denote the significant codes. Three asterixes indicate high statistical significance at p < 0.001. 
 4. Code to reproduce graph can also be found in question_5_code.R
 5. The estimated virus volume is 6697007 (in nm3)
 
